@@ -1,0 +1,168 @@
+body{
+	background: #000;
+}
+#Scene{
+	position: fixed;
+	width: 100%;
+	height: 700px;
+	margin-top: -350px;
+	top: 50%;
+}
+.parallax-layer{
+	position: absolute;
+	height: 700px;
+	background-repeat: no-repeat;
+}
+#bg1{
+	z-index: 0;
+	background: url(../images/sky1.png);
+	width: 3528px;
+	height: 100%;
+	top: -130px;
+}
+#bg2{
+	z-index: 1;
+	background: url(../images/bg2.png) left bottom;
+	width: 4568px;
+	height: 595px;
+	top: 420px;
+}
+#player{
+	z-index: 3;
+	position: absolute;
+	background-image: url(../images/player.png);
+	width: 250px;
+	height: 250px;
+	top: 480px;
+	left: 200px;
+}
+.building1{
+	position: absolute;
+	width: 707px;
+	height: 707px;
+	top: -45px;
+}
+.text1 {
+	position: absolute;
+	top: -900px;
+	left: -500px;
+	height: 300px;
+}
+.text2 {
+	position: absolute;
+	top: -890px;
+	left: -300px;
+	height: 300px;
+}
+.text3 {
+	position: absolute;
+	top: -1000px;
+	left: -150;
+	height: 300px;
+}
+.text4 {
+	position: absolute;
+	top: -950px;
+	left: 100px;
+	height: 300px;
+}
+#building1under{
+	z-index: 2;
+	background: url(../images/1b.png);
+}
+#building1over{
+	z-index: 4;
+	background: url(../images/1a.png);
+}
+.building2{
+	position: absolute;
+	width: 707px;
+	height: 707px;
+	top: -45px;
+}
+#building2under{
+	z-index: 2;
+	background: url(../images/2b.png);
+}
+#building2over{
+	z-index: 4;
+	background: url(../images/2a.png);
+}
+.building3{
+	position: absolute;
+	width: 707px;
+	height: 707px;
+	top: -45px;
+}
+#building3under{
+	z-index: 2;
+	background: url(../images/3b.png);
+}
+#building3over{
+	z-index: 4;
+	background: url(../images/3a.png);
+}
+.building4{
+	position: absolute;
+	width: 707px;
+	height: 707px;
+	top: -45px;
+}
+#building4under{
+	z-index: 2;
+	background: url(../images/4b.png);
+}
+#building4over{
+	z-index: 4;
+	background: url(../images/4a.png);
+}
+.building5{
+	position: absolute;
+	width: 707px;
+	height: 707px;
+	top: -45px;
+}
+#building5under{
+	z-index: 2;
+	background: url(../images/5b.png);
+}
+#building5over{
+	z-index: 4;
+	background: url(../images/5a.png);
+}
+.building6{
+	position: absolute;
+	width: 707px;
+	height: 707px;
+	top: -45px;
+}
+#building6under{
+	z-index: 2;
+	background: url(../images/6b.png);
+}
+#building6over{
+	z-index: 4;
+	background: url(../images/6a.png);
+}
+.building7{
+	position: absolute;
+	width: 707px;
+	height: 707px;
+	top: -45px;
+}
+#building7under{
+	z-index: 2;
+	background: url(../images/1b.png);
+}
+#building7over{
+	z-index: 4;
+	background: url(../images/1a.png);
+}
+#sun{
+	z-index: 1;
+	position: absolute;
+	background: url(../images/sun.png);
+	width: 194px;
+	height: 194px;
+	left: 180px;
+}
